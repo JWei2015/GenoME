@@ -17,7 +17,7 @@ GenoME is a Mixture of Experts (MoE)-based generative model that integrates DNA 
 - PyTorch 2.0+
 - CUDA 11.8+
 - PyTorch Lightning
-- [cooler](https://github.com/open2c/cooler), [cootools](https://github.com/open2c/cooltools)
+- [cooler](https://github.com/open2c/cooler), [cooltools](https://github.com/open2c/cooltools)
 - [kipoiseq](https://github.com/kipoi/kipoiseq), [pyBigWig](https://github.com/deeptools/pyBigWig)
 
 ### Setup
