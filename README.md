@@ -1,6 +1,5 @@
 
-# GenoME
-a MoE-based generative model for individualized, multimodal prediction and perturbation of genomic profiles 
+# GenoME: a MoE-based generative model for individualized, multimodal prediction and perturbation of genomic profiles 
 
 GenoME is a Mixture of Experts (MoE)-based generative model that integrates DNA sequence and cell-type-specific chromatin accessibility (ATAC-seq/DNase-seq) to predict a unified genomic profile across multiple scales and modalities.
 
