@@ -15,20 +15,20 @@ GenoME is a Mixture of Experts (MoE)-based generative model that integrates DNA 
 ### Dependencies
 - Python 3.9+
 - PyTorch 2.0+
-- CUDA 11.7+ (GPU recommended)
+- CUDA 11.8+
 - PyTorch Lightning
 - [cooler](https://github.com/open2c/cooler), [cootools](https://github.com/open2c/cooltools)
-- [kipoiseq](https://github.com/kipoi/kipoiseq),[pyBigWig](https://github.com/deeptools/pyBigWig)
+- [kipoiseq](https://github.com/kipoi/kipoiseq), [pyBigWig](https://github.com/deeptools/pyBigWig)
 
 ### Setup
 1. Clone this repository:
    ```bash
-   git clone https://github.com/JWei2014/HiCGen.git
-   cd HiCGen
+   git clone https://github.com/JWei2015/GenoME.git
+   cd GenoME
 2. Install dependencies via conda:
    ```bash
-   conda create -n hicgen python=3.9
-   conda activate hicgen
+   conda create -n genome python=3.9
+   conda activate genome
    conda env update -f requirements.txt
    
 ### Data Preparation
@@ -38,4 +38,5 @@ GenoME is a Mixture of Experts (MoE)-based generative model that integrates DNA 
 - Training targets: BigWig files for RNA-seq, ChIP-seq; cooler format for Hi-C
 2. Data preprocessing：
 see **Paper**:  [BioRxiv Preprint](https://www.biorxiv.org/) 
+
 
