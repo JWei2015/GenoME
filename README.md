@@ -5,7 +5,7 @@ GenoME is a Mixture of Experts (MoE)-based generative model that integrates DNA 
 
 **Paper**: [bioRxiv Preprint](https://www.biorxiv.org/content/10.64898/2025.12.28.696482v1/) | **Demo Data**: [Data link](docs/)
 
-![GenoME Overview](docs/overview.png)
+![GenoME Overview](docs/Fig0.bmp)
 
 ## Key Features
 - **Multi-modal Prediction**: Multimodal prediction of epigenomics, transcriptomics, and 3D chromatin architecture at base-pair to kilobase resolutions
