@@ -14,24 +14,15 @@ GenoME is a Mixture of Experts (MoE)-based generative model that integrates DNA 
 
 ## Installation
 
-### Dependencies
-- Python 3.9+
-- PyTorch 2.0+
-- CUDA 11.8+
-- PyTorch Lightning
-- [cooler](https://github.com/open2c/cooler), [cooltools](https://github.com/open2c/cooltools)
-- [kipoiseq](https://github.com/kipoi/kipoiseq), [pyBigWig](https://github.com/deeptools/pyBigWig)
+### Quick install (recommended)
+The simplest way to set up the environment is using the provided `environment.yml` file.
+```bash
+git clone https://github.com/JWei2015/GenoME.git
+cd GenoME
+conda env create -f environment.yml
+conda activate genome          # check environment.yml for the exact environment name
+pip install -e .
 
-### Setup
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/JWei2015/GenoME.git
-   cd GenoME
-2. Install dependencies via conda:
-   ```bash
-   conda create -n genome python=3.9
-   conda activate genome
-   conda env update -f requirements.txt
    
 ### Data Preparation
 1. Input Formats:
