@@ -1,0 +1,19 @@
+name: py310
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.10.20
+  - setuptools==80.9.0
+  - pytorch==2.10.0
+  - mamba-ssm==2.3.0
+  - numpy==2.2.6
+  - cooler
+  - kipoiseq
+  - pybigwig
+  - pip
+  - pip:
+    - pytorch-lightning==1.9.5
+    - lightning-bolts==0.7.0
+    - cooltools
