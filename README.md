@@ -24,7 +24,7 @@ GenoME is a Mixture of Experts (MoE)-based generative model that integrates DNA 
    pip install -e .
 
 ### Step‑by‑step manual installation
-If the quick install does not work (e.g., due to dependency conflicts), follow these steps:
+- If the quick install does not work (e.g., due to dependency conflicts), follow these steps:
 1. Clone the repository
    ```bash
    git clone https://github.com/JWei2015/GenoME.git
